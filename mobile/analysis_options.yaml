@@ -1,0 +1,46 @@
+# A file to configure analyzer settings.
+# More information at https://dart.dev/tools/analysis-options
+
+linter:
+  # Enable all the lint rules included in the recommended linter rule set
+  rules:
+    # Code style
+    always_declare_return_types: true
+    avoid_print: true
+    prefer_const_constructors: true
+    prefer_final_locals: true
+    prefer_is_empty: true
+    prefer_spread_collections: true
+
+    # Correctness
+    avoid_types_on_closure_parameters: true
+    prefer_single_quotes: true
+    unnecessary_getters_setters: true
+    unnecessary_null_in_if_null_operators: true
+
+    # Performance
+    avoid_function_literals_in_foreach_calls: true
+    avoid_init_to_null: true
+    avoid_return_types_on_setters: true
+
+    # Flutter specific
+    flutter_style_todos: true
+
+# Analyzer options
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  errors:
+    # Treat all warnings as errors
+    # This is useful to ensure the code adheres strictly to the set rules
+    missing_required_param: error
+    unnecessary_cast: warning
+# Optionally add more configurations like:
+
+# The version of the analyzer SDK.
+# sdk: ">=2.19.0 <3.0.0"  # Use if the project has a specific SDK version
+
+# You can also configure file exclusions here, for example:
+# exclude:
+#   - lib/generated/*

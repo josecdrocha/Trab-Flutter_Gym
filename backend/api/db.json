@@ -1,0 +1,84 @@
+{
+  "muscles": [
+    {
+      "id": 1,
+      "name": "Peito",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Supino reto",
+          "description": "Deite-se no banco e empurre a barra para cima."
+        },
+        {
+          "id": 2,
+          "name": "Flexao de braco",
+          "description": "Flexione os cotovelos ate o peito tocar o solo e volte."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Costas",
+      "exercises": [
+        {
+          "id": 3,
+          "name": "Puxada frontal",
+          "description": "Puxe a barra para baixo ate o peito enquanto mantem as costas retas."
+        },
+        {
+          "id": 4,
+          "name": "Remada curvada",
+          "description": "Incline o tronco para frente e puxe a barra em direcao ao tronco."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Perna",
+      "exercises": [
+        {
+          "id": 5,
+          "name": "Agachamento",
+          "description": "Agache ate os joelhos formarem um angulo de 90 graus e volte."
+        },
+        {
+          "id": 6,
+          "name": "Leg press",
+          "description": "Empurre a plataforma com as pernas ate estender quase completamente."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Biceps",
+      "exercises": [
+        {
+          "id": 7,
+          "name": "Rosca direta",
+          "description": "Com a barra, flexione os cotovelos e levante o peso ate os ombros."
+        },
+        {
+          "id": 8,
+          "name": "Rosca martelo",
+          "description": "Segure os halteres com as palmas voltadas para dentro e levante-os."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Triceps",
+      "exercises": [
+        {
+          "id": 9,
+          "name": "Triceps pulley",
+          "description": "Puxe a barra para baixo com as maos posicionadas em pegada pronada."
+        },
+        {
+          "id": 10,
+          "name": "Mergulho",
+          "description": "Desca o corpo em direcao ao solo e empurre para cima com os triceps."
+        }
+      ]
+    }
+  ]
+}
